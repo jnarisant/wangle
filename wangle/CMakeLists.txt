@@ -100,7 +100,7 @@ file(GLOB_RECURSE GMOCK_URL "gmock-1.7.0.zip")
 if (GMOCK_URL)
   list(GET GMOCK_URL 0 GMOCK_URL)
 else()
-  set(GMOCK_URL https://googlemock.googlecode.com/files/gmock-1.7.0.zip)
+  set(GMOCK_URL http://pkgs.fedoraproject.org/repo/pkgs/gmock/gmock-1.7.0.zip/073b984d8798ea1594f5e44d85b20d66/gmock-1.7.0.zip)
 endif()
 
 # Download and install GoogleMock
